@@ -1,13 +1,33 @@
 {
-  "pages":[
+  "pages": [
+    "pages/body/body",
     "pages/index/index",
-    "pages/addCgi/addCgi"
+    "pages/me/me",
+    "pages/body/bodyAnatomy/bodyDetail/bodyDetail",
+    "pages/body/bodyAnatomy/bodyAnatomy",
+    "pages/body/bodyAcupoint/bodyAcupoint"
   ],
-  "window":{
-    "backgroundColor":"#F6F6F6",
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Wafer Quick Start",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "经骨大夫",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/body/body",
+        "text": "学习",
+        "iconPath": "images/study.png",
+        "selectedIconPath": "images/study-color.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-color.png"
+      }
+    ]
   }
 }

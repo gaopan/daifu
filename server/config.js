@@ -3,13 +3,13 @@ const CONF = {
     rootPathname: '',
 
     // 微信小程序 App ID
-    appId: '',
+  appId: 'wx8a2891ab7af95e55',
 
     // 微信小程序 App Secret
-    appSecret: '',
+  appSecret: '888deaf0ae6f0d0047d46e00afa4c6e4',
 
     // 是否使用腾讯云代理登录小程序
-    useQcloudLogin: true,
+    useQcloudLogin: false,
 
     /**
      * MySQL 配置，用来存储 session 和用户信息
@@ -21,7 +21,7 @@ const CONF = {
         port: 3306,
         user: 'root',
         db: 'cAuth',
-        pass: '',
+        pass: 'rat.aid.two-666',
         char: 'utf8mb4'
     },
 
@@ -39,7 +39,8 @@ const CONF = {
 
     // 微信登录态有效期
     wxLoginExpires: 7200,
-    wxMessageToken: 'abcdefgh'
+    wxMessageToken: 'abcdefgh',
+    filesPath: "/work/pworkspace/daifu/files"
 }
 
 module.exports = CONF

@@ -1,0 +1,65 @@
+/* client/pages/body/bodyAnatomy/bodyAnatomy.wxss */
+page {
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.parts-left {
+  background-color: #F6F6F6;
+}
+
+.part-b {
+  padding: 20rpx 30rpx;
+  white-space: nowrap;
+  position: relative;
+}
+
+.part-b.active {
+  background-color: #FFF;
+}
+
+.part-b.active::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background-color: #71CD6F;
+  left: 5rpx;
+  top: 5rpx;
+  bottom: 5rpx;
+  width: 5rpx;
+}
+
+.parts-right {
+  display: block;
+}
+
+.part-s-container {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+
+.part-s {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20rpx;
+}
+
+.part-s-inner {
+  display: block;
+  padding: 50rpx 0;
+  border: 1rpx solid #7d7d7d;
+}

@@ -1,0 +1,52 @@
+/* client/pages/bodyDetail/bodyDetail.wxss */
+page {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.sides {
+  padding: 20rpx;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  background-color: #f6f6f6;
+}
+
+.side-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 20rpx;
+}
+
+.side {
+  padding: 50rpx;
+  text-align: center;
+  background-color: #fff;
+  border: 2rpx solid #7d7d7d;
+}
+
+.parts {
+  padding: 20rpx;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  background-color: #f6f6f6;
+}
+
+.part-wrapper {
+  display: inline-block;
+  padding: 20rpx;
+}
+
+.part {
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+}

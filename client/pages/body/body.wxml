@@ -1,0 +1,9 @@
+<!--pages/body/body.wxml-->
+<view class="container">
+  <view class="nav-wrapper">
+    <navigator url="bodyAnatomy/bodyAnatomy" open-type='redirect'>人体解剖</navigator>
+  </view>
+  <view class="nav-wrapper">
+    <navigator url="bodyAcupoint/bodyAcupoint" open-type="redirect">经脉穴位</navigator>
+  </view>
+</view>

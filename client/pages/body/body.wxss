@@ -1,0 +1,26 @@
+/* pages/body/body.wxss */
+page {
+  background: #F6F6F6;
+}
+
+.container {
+  padding: 30rpx;
+}
+
+.nav-wrapper {
+  display: block;
+  width: 100%;
+}
+
+.nav-wrapper>navigator {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50rpx;
+  background-color: #71CD6F;
+  color: #fff;
+}
+
+.nav-wrapper+.nav-wrapper {
+  margin-top: 30rpx;
+}

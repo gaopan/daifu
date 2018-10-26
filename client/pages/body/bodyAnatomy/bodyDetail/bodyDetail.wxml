@@ -1,0 +1,16 @@
+<!--client/pages/bodyDetail/bodyDetail.wxml-->
+<view class="container">
+  <view class="sides" hidden="{{showSideDetail}}">
+    <view class="side-wrapper" wx:for="{{cat.sides}}" wx:key="id">
+      <view class="side" data-side="{{item}}" bindtap="tapSide"><text>{{item.name}}</text></view>
+    </view>
+  </view>
+  <view class="side-detail" hidden="{{!showSideDetail}}">
+    <image src="{{side.img.url}}"></image>
+    <view class="parts">
+      <view class="part-wrapper" wx:for="{{side.parts}}">
+        <view class="part"><text>{{item.name}}</text></view>
+      </view>
+    </view>
+  </view>
+</view>

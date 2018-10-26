@@ -4,9 +4,13 @@
 	"miniprogramRoot": "client/",
 	"qcloudRoot": "server/",
 	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
 		"newFeature": true
 	},
-	"appid": "wx41501099565eb555",
+	"appid": "wx8a2891ab7af95e55",
 	"projectname": "daifu",
 	"condition": {}
 }

@@ -34,4 +34,16 @@ CREATE TABLE `cSessionInfo` (
   KEY `skey` (`skey`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='会话管理用户信息';
 
+DROP TABLE IF EXISTS `anatomy_cat`;
+CREATE TABLE `cAuth`.`anatomy_cat` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `parent_id` VARCHAR(45) NULL,
+  `description` VARCHAR(256) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8mb4
+COLLATE = utf8mb4_unicode_ci
+COMMENT = 'Body Anatomy Information';
+
 SET FOREIGN_KEY_CHECKS = 1;

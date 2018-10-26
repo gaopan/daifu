@@ -25,7 +25,7 @@ const DB = require('knex')({
         multipleStatements: true
     }
 })
-
+console.log(config.pass);
 console.log(`准备读取 SQL 文件：${INIT_DB_FILE}`)
 
 // 读取 .sql 文件内容

@@ -1,0 +1,19 @@
+<!--client/pages/body/bodyAnatomy/bodyAnatomy.wxml-->
+<view class="container">
+  <view class="parts-left">
+    <view class="part-b {{index==curIndex?'active':''}}" wx:key="name" wx:for="{{parts}}" data-index="{{index}}" data-part="{{item}}" bindtap="tapBPart">
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+
+  <view class="parts-right">
+    <view class="part-s-container" wx:if="{{parts[curIndex].isHaveChild}}">
+      <view class="part-s" wx:for="{{parts[curIndex].children}}" wx:key="name">
+        <view class="part-s-inner" data-part="{{item}}" bindtap="tapSPart">
+          <text>{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="parts-nodata" wx:else></view>
+  </view>
+</view>
